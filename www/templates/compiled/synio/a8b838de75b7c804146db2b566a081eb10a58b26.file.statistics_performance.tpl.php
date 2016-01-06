@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2016-01-02 10:27:15
+<?php /* Smarty version Smarty-3.1.8, created on 2016-01-04 18:10:14
          compiled from "D:\OpenServer\domains\kprf.dev\www/templates/skin/synio\statistics_performance.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:955656877bd3dba599-17530811%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17020568a8b56ab4664-26405766%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a8b838de75b7c804146db2b566a081eb10a58b26' => 
     array (
       0 => 'D:\\OpenServer\\domains\\kprf.dev\\www/templates/skin/synio\\statistics_performance.tpl',
-      1 => 1363889768,
+      1 => 1424273456,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '955656877bd3dba599-17530811',
+  'nocache_hash' => '17020568a8b56ab4664-26405766',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_56877bd3de16a0_78340396',
+  'unifunc' => 'content_568a8b56adf5e4_25286263',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56877bd3de16a0_78340396')) {function content_56877bd3de16a0_78340396($_smarty_tpl) {?><?php if (!is_callable('smarty_function_hook')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.hook.php';
+<?php if ($_valid && !is_callable('content_568a8b56adf5e4_25286263')) {function content_568a8b56adf5e4_25286263($_smarty_tpl) {?><?php if (!is_callable('smarty_function_hook')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.hook.php';
 ?><?php if ($_smarty_tpl->tpl_vars['bIsShowStatsPerformance']->value&&$_smarty_tpl->tpl_vars['oUserCurrent']->value&&$_smarty_tpl->tpl_vars['oUserCurrent']->value->isAdministrator()){?>
 	<div class="stat-performance">
 		<?php echo smarty_function_hook(array('run'=>'statistics_performance_begin'),$_smarty_tpl);?>

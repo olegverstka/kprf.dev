@@ -1,0 +1,1 @@
+<li {if $sMenuHeadItemSelect=='receptiondesk'}class="active"{/if}><a href="{router page='receptiondesk'}">{$aLang.plugin.receptiondesk.receptiondesk_main_menu_item}</a><i></i></li>

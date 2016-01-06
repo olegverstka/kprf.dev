@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2016-01-02 10:27:15
+<?php /* Smarty version Smarty-3.1.8, created on 2016-01-04 18:10:14
          compiled from "D:\OpenServer\domains\kprf.dev\www/templates/skin/synio\footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1607556877bd3c91759-00524998%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:31507568a8b56958b86-78501866%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'b643b560cc925a47bea8d723f92aa6f0b4fa427c' => 
     array (
       0 => 'D:\\OpenServer\\domains\\kprf.dev\\www/templates/skin/synio\\footer.tpl',
-      1 => 1363889768,
+      1 => 1430082322,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1607556877bd3c91759-00524998',
+  'nocache_hash' => '31507568a8b56958b86-78501866',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_56877bd3cdbae6_38603174',
+  'unifunc' => 'content_568a8b569c61a6_76902192',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56877bd3cdbae6_38603174')) {function content_56877bd3cdbae6_38603174($_smarty_tpl) {?><?php if (!is_callable('smarty_function_hook')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.hook.php';
+<?php if ($_valid && !is_callable('content_568a8b569c61a6_76902192')) {function content_568a8b569c61a6_76902192($_smarty_tpl) {?><?php if (!is_callable('smarty_function_hook')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.hook.php';
 if (!is_callable('smarty_function_router')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.router.php';
 if (!is_callable('smarty_function_cfg')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.cfg.php';
 ?>			<?php echo smarty_function_hook(array('run'=>'content_end'),$_smarty_tpl);?>
@@ -33,7 +33,7 @@ if (!is_callable('smarty_function_cfg')) include 'D:\\OpenServer\\domains\\kprf.
 		</div> <!-- /content -->
 	</div> <!-- /wrapper -->
 
-
+<!--
 	
 	<footer id="footer">
 		<?php if ($_smarty_tpl->tpl_vars['oUserCurrent']->value){?>
@@ -89,22 +89,75 @@ exit/?security_ls_key=<?php echo $_smarty_tpl->tpl_vars['LIVESTREET_SECURITY_KEY
 			<?php echo smarty_function_hook(array('run'=>'footer_menu_navigate_item'),$_smarty_tpl);?>
 
 		</ul>
+-->		
 		
 		
 		
+		
+		
+		
+		
+
+								 
+				 <img src="http://сокол-сао.рф/d.jpg" title="Мусаев Александр
+адрес: Ул.Флотская, 82/6
+телефон : 8(499)7470954">
+		<br/><br/>
 		
 		
 		
 	
-		<div class="copyright">
+		<!--<div class="copyright">
 			<?php echo smarty_function_hook(array('run'=>'copyright'),$_smarty_tpl);?>
 
 			
 			<div class="design-by">
 				<img src="<?php echo smarty_function_cfg(array('name'=>'path.static.skin'),$_smarty_tpl);?>
 /images/xeoart.png" alt="xeoart" />
-				Design by <a href="http://xeoart.com">xeoart</a>
-				<div>2012</div>
+				Design by <a href="http://xeoart.com">xeoart</a> -->
+				<div>Организатор проекта <a href="http://vk.com/id1798736">Тарасов Антон</a>
+				 </div>
+				 <div>Руководитель проекта <a href="https://www.facebook.com/profile.php?id=100007299644938">Удалов Сергей</a></div>
+				 
+		 <br/>
+					 
+				 
+				 <!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=29259100&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/29259100/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:29259100,lang:'ru'});return false}catch(e){}"/></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter29259100 = new Ya.Metrika({id:29259100,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/29259100" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+ 
+				 
+				 
+				 
 			</div>
 		</div>
 		
@@ -117,6 +170,21 @@ exit/?security_ls_key=<?php echo $_smarty_tpl->tpl_vars['LIVESTREET_SECURITY_KEY
 
 
 <?php echo smarty_function_hook(array('run'=>'body_end'),$_smarty_tpl);?>
+
+
+
+<!-- Yandex.Metrika counter -->
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+<script type="text/javascript">
+try { var yaCounter23864602 = new Ya.Metrika({id:23864602,
+          webvisor:true,
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true});
+} catch(e) { }
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/23864602" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 
 </body>

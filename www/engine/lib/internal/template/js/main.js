@@ -180,7 +180,7 @@ ls.swfupload = (function ($) {
 			button_width: 122,
 			button_height: 30,
 			button_text : '<span class="button">'+ls.lang.get('topic_photoset_upload_choose')+'</span>',
-			button_text_style : '.button { color: #1F8AB7; font-size: 14px; }',
+			button_text_style : '.button { color: #1F8AB7; font-size: 24px; }',
 			button_window_mode: SWFUpload.WINDOW_MODE.TRANSPARENT,
 			button_text_left_padding: 6,
 			button_text_top_padding: 3,

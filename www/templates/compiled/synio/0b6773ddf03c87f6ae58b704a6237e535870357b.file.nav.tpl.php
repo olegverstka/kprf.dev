@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2016-01-02 10:27:15
+<?php /* Smarty version Smarty-3.1.8, created on 2016-01-04 18:10:14
          compiled from "D:\OpenServer\domains\kprf.dev\www/templates/skin/synio\nav.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1503656877bd3bf14a7-75608852%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:30838568a8b56703086-05836060%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0b6773ddf03c87f6ae58b704a6237e535870357b' => 
     array (
       0 => 'D:\\OpenServer\\domains\\kprf.dev\\www/templates/skin/synio\\nav.tpl',
-      1 => 1363889768,
+      1 => 1424273456,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1503656877bd3bf14a7-75608852',
+  'nocache_hash' => '30838568a8b56703086-05836060',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_56877bd3c185b0_93922058',
+  'unifunc' => 'content_568a8b5671e609_68528413',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56877bd3c185b0_93922058')) {function content_56877bd3c185b0_93922058($_smarty_tpl) {?><?php if (!is_callable('smarty_function_router')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.router.php';
+<?php if ($_valid && !is_callable('content_568a8b5671e609_68528413')) {function content_568a8b5671e609_68528413($_smarty_tpl) {?><?php if (!is_callable('smarty_function_router')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.router.php';
 ?><nav id="nav">
 	<?php if ($_smarty_tpl->tpl_vars['menu']->value){?>
 		<?php if (in_array($_smarty_tpl->tpl_vars['menu']->value,$_smarty_tpl->tpl_vars['aMenuContainers']->value)){?><?php echo $_smarty_tpl->tpl_vars['aMenuFetch']->value[$_smarty_tpl->tpl_vars['menu']->value];?>

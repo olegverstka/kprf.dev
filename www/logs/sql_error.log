@@ -1,18 +1,450 @@
-[2016-01-02 10:23:34][6208][2380][ERROR][SQL Error: Unknown database 'social' at D:\OpenServer\domains\kprf.dev\www\engine\modules\database\Database.class.php line 72<br>
+[2014-03-02 13:36:40][59383][6006][ERROR][SQL Error: Table 'vxeeuesn_hovrino.prefix_adminset' doesn't exist at /home/vxeeuesn/public_html/_hovrino/plugins/aceadminpanel/classes/modules/admin/mapper/Admin.mapper.class.php line 33<br>
 Array
 (
-    [code] => 1049
-    [message] => Unknown database 'social'
-    [query] => mysql_select_db()
-    [context] => D:\OpenServer\domains\kprf.dev\www\engine\modules\database\Database.class.php line 72
+    [code] => 1146
+    [message] => Table 'vxeeuesn_hovrino.prefix_adminset' doesn't exist
+    [query] => SELECT adminset_val FROM prefix_adminset WHERE adminset_key = 'version' 
+    [context] => /home/vxeeuesn/public_html/_hovrino/plugins/aceadminpanel/classes/modules/admin/mapper/Admin.mapper.class.php line 33
 )
 ]
-[2016-01-02 10:23:34][6208][6397][ERROR][SQL Error: Unknown database 'social' at D:\OpenServer\domains\kprf.dev\www\engine\modules\database\Database.class.php line 72<br>
+[2014-03-02 13:36:40][59383][6006][ERROR][SQL Error: Table 'vxeeuesn_hovrino.prefix_receptiondesk_questions' doesn't exist at /home/vxeeuesn/public_html/_hovrino/plugins/receptiondesk/classes/modules/question/mapper/Question.mapper.class.php line 55<br>
 Array
 (
-    [code] => 1049
-    [message] => Unknown database 'social'
-    [query] => mysql_select_db()
+    [code] => 1146
+    [message] => Table 'vxeeuesn_hovrino.prefix_receptiondesk_questions' doesn't exist
+    [query] => SELECT SQL_CALC_FOUND_ROWS question_id FROM prefix_receptiondesk_questions WHERE 1=1  AND question_publish=1 ORDER BY  question_date_add DESC  LIMIT 0,5;
+    [context] => /home/vxeeuesn/public_html/_hovrino/plugins/receptiondesk/classes/modules/question/mapper/Question.mapper.class.php line 55
+)
+]
+[2014-03-02 13:36:42][59435][5659][ERROR][SQL Error: Table 'vxeeuesn_hovrino.prefix_adminset' doesn't exist at /home/vxeeuesn/public_html/_hovrino/plugins/aceadminpanel/classes/modules/admin/mapper/Admin.mapper.class.php line 33<br>
+Array
+(
+    [code] => 1146
+    [message] => Table 'vxeeuesn_hovrino.prefix_adminset' doesn't exist
+    [query] => SELECT adminset_val FROM prefix_adminset WHERE adminset_key = 'version' 
+    [context] => /home/vxeeuesn/public_html/_hovrino/plugins/aceadminpanel/classes/modules/admin/mapper/Admin.mapper.class.php line 33
+)
+]
+[2014-03-02 13:36:42][59435][5659][ERROR][SQL Error: Table 'vxeeuesn_hovrino.prefix_receptiondesk_questions' doesn't exist at /home/vxeeuesn/public_html/_hovrino/plugins/receptiondesk/classes/modules/question/mapper/Question.mapper.class.php line 55<br>
+Array
+(
+    [code] => 1146
+    [message] => Table 'vxeeuesn_hovrino.prefix_receptiondesk_questions' doesn't exist
+    [query] => SELECT SQL_CALC_FOUND_ROWS question_id FROM prefix_receptiondesk_questions WHERE 1=1  AND question_publish=1 ORDER BY  question_date_add DESC  LIMIT 0,5;
+    [context] => /home/vxeeuesn/public_html/_hovrino/plugins/receptiondesk/classes/modules/question/mapper/Question.mapper.class.php line 55
+)
+]
+[2015-02-18 18:38:48][580877][3357][ERROR][SQL Error: Table 'vxeeuesn_sokol.prefix_adminset' doesn't exist at /home/vxeeuesn/public_html/_sokol/plugins/aceadminpanel/classes/modules/admin/mapper/Admin.mapper.class.php line 33<br>
+Array
+(
+    [code] => 1146
+    [message] => Table 'vxeeuesn_sokol.prefix_adminset' doesn't exist
+    [query] => SELECT adminset_val FROM prefix_adminset WHERE adminset_key = 'version' 
+    [context] => /home/vxeeuesn/public_html/_sokol/plugins/aceadminpanel/classes/modules/admin/mapper/Admin.mapper.class.php line 33
+)
+]
+[2015-02-18 18:38:49][580877][3357][ERROR][SQL Error: Table 'vxeeuesn_sokol.prefix_receptiondesk_questions' doesn't exist at /home/vxeeuesn/public_html/_sokol/plugins/receptiondesk/classes/modules/question/mapper/Question.mapper.class.php line 55<br>
+Array
+(
+    [code] => 1146
+    [message] => Table 'vxeeuesn_sokol.prefix_receptiondesk_questions' doesn't exist
+    [query] => SELECT SQL_CALC_FOUND_ROWS question_id FROM prefix_receptiondesk_questions WHERE 1=1  AND question_publish=1 ORDER BY  question_date_add DESC  LIMIT 0,5;
+    [context] => /home/vxeeuesn/public_html/_sokol/plugins/receptiondesk/classes/modules/question/mapper/Question.mapper.class.php line 55
+)
+]
+[2015-02-18 18:38:50][580913][4819][ERROR][SQL Error: Table 'vxeeuesn_sokol.prefix_adminset' doesn't exist at /home/vxeeuesn/public_html/_sokol/plugins/aceadminpanel/classes/modules/admin/mapper/Admin.mapper.class.php line 33<br>
+Array
+(
+    [code] => 1146
+    [message] => Table 'vxeeuesn_sokol.prefix_adminset' doesn't exist
+    [query] => SELECT adminset_val FROM prefix_adminset WHERE adminset_key = 'version' 
+    [context] => /home/vxeeuesn/public_html/_sokol/plugins/aceadminpanel/classes/modules/admin/mapper/Admin.mapper.class.php line 33
+)
+]
+[2015-02-18 18:38:51][580937][5479][ERROR][SQL Error: Table 'vxeeuesn_sokol.prefix_adminset' doesn't exist at /home/vxeeuesn/public_html/_sokol/plugins/aceadminpanel/classes/modules/admin/mapper/Admin.mapper.class.php line 33<br>
+Array
+(
+    [code] => 1146
+    [message] => Table 'vxeeuesn_sokol.prefix_adminset' doesn't exist
+    [query] => SELECT adminset_val FROM prefix_adminset WHERE adminset_key = 'version' 
+    [context] => /home/vxeeuesn/public_html/_sokol/plugins/aceadminpanel/classes/modules/admin/mapper/Admin.mapper.class.php line 33
+)
+]
+[2015-04-18 12:34:39][11233][6337][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-04-18 12:34:39][11246][8226][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-04-18 12:34:39][11248][5036][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-04-18 12:34:39][11250][5696][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-04-18 12:34:39][11249][5811][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-05-01 19:44:14][459638][4614][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-05-07 10:54:10][512904][9098][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-05-07 10:54:10][512898][3016][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-05-07 10:54:10][512908][1737][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 07:12:57][992383][4300][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 07:12:57][992390][9732][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 07:51:18][16717][1728][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 08:28:50][48504][6215][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 08:28:56][48559][7163][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 09:15:28][127958][7410][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 09:15:28][127957][1800][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 10:36:55][240074][9554][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 10:36:55][240116][6490][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 10:36:56][240183][2481][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 11:34:56][347573][8632][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 12:04:02][425017][6428][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 13:33:16][4736][7668][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 15:25:05][223741][6509][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 15:25:06][223968][2752][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 15:25:09][223999][2376][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 15:25:15][224097][1386][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 15:25:18][224131][5100][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 15:25:21][224170][9971][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 15:25:28][224279][9518][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 15:25:30][224299][5728][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 15:25:33][224346][7889][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 15:25:43][224465][7792][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-16 15:51:22][316438][6779][ERROR][SQL Error: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 2002
+    [message] => Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-18 22:23:57][71554][7788][ERROR][SQL Error: Access denied for user 'vxeeuesn_sokolus'@'cp7.cloudmoud.com' (using password: YES) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1045
+    [message] => Access denied for user 'vxeeuesn_sokolus'@'cp7.cloudmoud.com' (using password: YES)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-18 23:03:56][151629][6295][ERROR][SQL Error: Access denied for user 'vxeeuesn_sokolus'@'cp7.cloudmoud.com' (using password: YES) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1045
+    [message] => Access denied for user 'vxeeuesn_sokolus'@'cp7.cloudmoud.com' (using password: YES)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-18 23:03:57][151643][9182][ERROR][SQL Error: Access denied for user 'vxeeuesn_sokolus'@'cp7.cloudmoud.com' (using password: YES) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1045
+    [message] => Access denied for user 'vxeeuesn_sokolus'@'cp7.cloudmoud.com' (using password: YES)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-18 23:30:55][169267][6365][ERROR][SQL Error: Access denied for user 'vxeeuesn_sokolus'@'cp7.cloudmoud.com' (using password: YES) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1045
+    [message] => Access denied for user 'vxeeuesn_sokolus'@'cp7.cloudmoud.com' (using password: YES)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-09-18 23:30:55][169272][3522][ERROR][SQL Error: Access denied for user 'vxeeuesn_sokolus'@'cp7.cloudmoud.com' (using password: YES) at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1045
+    [message] => Access denied for user 'vxeeuesn_sokolus'@'cp7.cloudmoud.com' (using password: YES)
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-11-19 23:59:55][384225][1736][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-11-19 23:59:55][384236][5287][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2015-11-25 12:11:46][129063][2158][ERROR][SQL Error: User vxeeuesn_sokolus already has more than 'max_user_connections' active connections at /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72<br>
+Array
+(
+    [code] => 1203
+    [message] => User vxeeuesn_sokolus already has more than 'max_user_connections' active connections
+    [query] => mysql_connect()
+    [context] => /home/vxeeuesn/public_html/_sokol/engine/modules/database/Database.class.php line 72
+)
+]
+[2016-01-04 18:09:51][3548][2379][ERROR][SQL Error: Access denied for user 'vxeeuesn_sokolus'@'localhost' (using password: YES) at D:\OpenServer\domains\kprf.dev\www\engine\modules\database\Database.class.php line 72<br>
+Array
+(
+    [code] => 1045
+    [message] => Access denied for user 'vxeeuesn_sokolus'@'localhost' (using password: YES)
+    [query] => mysql_connect()
     [context] => D:\OpenServer\domains\kprf.dev\www\engine\modules\database\Database.class.php line 72
 )
 ]

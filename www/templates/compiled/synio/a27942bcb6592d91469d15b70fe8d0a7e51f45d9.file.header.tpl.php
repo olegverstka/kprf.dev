@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2016-01-02 10:27:15
+<?php /* Smarty version Smarty-3.1.8, created on 2016-01-04 18:10:14
          compiled from "D:\OpenServer\domains\kprf.dev\www/templates/skin/synio\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3239356877bd3922804-46279177%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:19370568a8b56512e83-03830361%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'a27942bcb6592d91469d15b70fe8d0a7e51f45d9' => 
     array (
       0 => 'D:\\OpenServer\\domains\\kprf.dev\\www/templates/skin/synio\\header.tpl',
-      1 => 1363889768,
+      1 => 1424273456,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3239356877bd3922804-46279177',
+  'nocache_hash' => '19370568a8b56512e83-03830361',
   'function' => 
   array (
   ),
@@ -39,9 +39,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_56877bd3a53347_86391416',
+  'unifunc' => 'content_568a8b565f1948_72809361',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56877bd3a53347_86391416')) {function content_56877bd3a53347_86391416($_smarty_tpl) {?><?php if (!is_callable('smarty_function_hook')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.hook.php';
+<?php if ($_valid && !is_callable('content_568a8b565f1948_72809361')) {function content_568a8b565f1948_72809361($_smarty_tpl) {?><?php if (!is_callable('smarty_function_hook')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.hook.php';
 if (!is_callable('smarty_function_cfg')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.cfg.php';
 if (!is_callable('smarty_function_router')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.router.php';
 if (!is_callable('smarty_function_json')) include 'D:\\OpenServer\\domains\\kprf.dev\\www/engine/modules/viewer/plugs\\function.json.php';
@@ -210,22 +210,29 @@ px;
 
 
 	
-	<div id="header-back"></div>
+	<?php if ($_smarty_tpl->tpl_vars['oUserCurrent']->value){?>
+<div id="header-back"></div>
+<?php }?>
+
 	
 	<div id="container" class="<?php echo smarty_function_hook(array('run'=>'container_class'),$_smarty_tpl);?>
 ">
-		<?php echo $_smarty_tpl->getSubTemplate ('header_top.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+		
+		<?php if ($_smarty_tpl->tpl_vars['oUserCurrent']->value){?>
+<?php echo $_smarty_tpl->getSubTemplate ('header_top.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
+ <?php }?>
 		<?php echo $_smarty_tpl->getSubTemplate ('nav.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 
-		<div id="wrapper" class="<?php if ($_smarty_tpl->tpl_vars['noSidebar']->value){?>no-sidebar<?php }?><?php echo smarty_function_hook(array('run'=>'wrapper_class'),$_smarty_tpl);?>
+		<div id="wrapper" class="no-sidebar<?php echo smarty_function_hook(array('run'=>'wrapper_class'),$_smarty_tpl);?>
 ">
+<!--
 			<?php if (!$_smarty_tpl->tpl_vars['noSidebar']->value){?>
 				<?php echo $_smarty_tpl->getSubTemplate ('sidebar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 			<?php }?>
-		
+-->
 			<div id="content" role="main" <?php if ($_smarty_tpl->tpl_vars['sidebarPosition']->value=='left'){?>class="content-profile"<?php }?> <?php if ($_smarty_tpl->tpl_vars['sMenuItemSelect']->value=='profile'){?>itemscope itemtype="http://data-vocabulary.org/Person"<?php }?>>
 				<?php echo $_smarty_tpl->getSubTemplate ('nav_content.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 

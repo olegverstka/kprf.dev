@@ -18,6 +18,8 @@
     "tests"
   ],
   "devDependencies": {
-    "bourbon": "~4.2.6"
+    "bourbon": "~4.2.6",
+    "Selecter": "~3.2.4",
+    "jquery": "1.11.2"
   }
 }

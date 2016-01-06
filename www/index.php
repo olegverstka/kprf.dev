@@ -18,7 +18,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 header('Content-Type: text/html; charset=utf-8');
-header('X-Powered-By: LiveStreet CMS');
+header('X-Powered-By: CMS');
 
 set_include_path(get_include_path().PATH_SEPARATOR.dirname(__FILE__));
 chdir(dirname(__FILE__));

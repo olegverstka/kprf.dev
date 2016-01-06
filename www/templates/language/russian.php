@@ -187,7 +187,7 @@ return array(
 	/**
 	 * Топики
 	 */
-	'topic_title' => 'Топики',
+	'topic_title' => 'НОВОСТИ',
 	'topic_read_more' => 'Читать дальше',
 	'topic_author' => 'Автор топика',
 	'topic_date' => 'дата',
@@ -222,7 +222,7 @@ return array(
 	/**
 	 * Меню топиков
 	 */
-	'topic_menu_add' => 'Топик',
+	'topic_menu_add' => 'Новость',
 	'topic_menu_add_topic' => 'Текстовый',
 	'topic_menu_add_question' => 'Опрос',
 	'topic_menu_add_link' => 'Ссылка',
@@ -235,13 +235,13 @@ return array(
 	'topic_topic_create' => 'Создание топика',
 	'topic_topic_edit' => 'Редактирование топика',
 	'topic_create' => 'Написать',
-	'topic_create_blog' => 'В какой блог публикуем?',
+	'topic_create_blog' => '',
 	'topic_create_blog_personal' => 'мой персональный блог',
 	'topic_create_blog_error_unknown' => 'Пытаетесь запостить топик в неизвестный блог?',
 	'topic_create_blog_error_nojoin' => 'Вы не состоите в этом блоге!',
 	'topic_create_blog_error_noacl' => 'Вы еще недостаточно окрепли, чтобы постить в этот блог',
 	'topic_create_blog_error_noallow' => 'Вы не можете писать в этот блог',
-	'topic_create_blog_notice' => 'Для того чтобы написать в определенный блог, вы должны, для начала, вступить в него.',
+	'topic_create_blog_notice' => '',
 	'topic_create_title' => 'Заголовок',
 	'topic_create_title_notice' => 'Заголовок должен быть наполнен смыслом, чтобы можно было понять, о чем будет топик.',
 	'topic_create_title_error' => 'Название топика должно быть от 2 до 200 символов',
@@ -1086,7 +1086,7 @@ return array(
 	 * Создание
 	 */
 	'block_create' => 'Создать',
-	'block_create_topic_topic' => 'Топик',
+	'block_create_topic_topic' => 'Новость',
 	'block_create_topic_question' => 'Опрос',
 	'block_create_topic_link' => 'Ссылка',
 	'block_create_topic_photoset' => 'Фотосет',

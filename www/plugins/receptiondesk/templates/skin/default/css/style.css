@@ -1,0 +1,9 @@
+.modal.modal-receptiondesk-category{ width: 680px; margin-left: -340px; top: 5%; }
+
+.table.table-blogs .cell-action { width: 30px; text-align: center; vertical-align: middle; }
+
+.receptiondesk-question-notice { display: none; }
+
+.question-text { height: 200px; }
+
+.captcha-image { float: left; vertical-align: top; padding-right: 10px; }

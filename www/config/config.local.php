@@ -27,23 +27,39 @@ $config['db']['params']['port'] = '3306';
 $config['db']['params']['user'] = 'root';
 $config['db']['params']['pass'] = '';
 $config['db']['params']['type']   = 'mysql';
-$config['db']['params']['dbname'] = 'kprf';
+$config['db']['params']['dbname'] = 'social';
 $config['db']['table']['prefix'] = 'prefix_';
 
-$config['path']['root']['web'] = 'http://kprf.dev';
+$config['path']['root']['web'] = 'http://kprf.dev/';
+
 $config['path']['root']['server'] = 'D:\OpenServer\domains\kprf.dev\www';
+$config['path']['static']['skin']     = '___path.static.root___templates/skin/___view.skin___/';
+
 $config['path']['offset_request_url'] = '0';
+
 $config['db']['tables']['engine'] = 'InnoDB';
-$config['view']['name'] = 'КПРФ';
-$config['view']['description'] = 'Единый портал депутатов МГД. ГД. МСУ партии КПРФ';
-$config['view']['keywords'] = 'site, google, internet';
-$config['view']['skin'] = 'synio';
-$config['sys']['mail']['from_email'] = 'admin@admin.adm';
-$config['sys']['mail']['from_name'] = 'Почтовик Your Site';
+
+$config['view']['name'] = 'Сокол САО';
+
+$config['view']['description'] = 'САО';
+
+$config['view']['keywords'] = 'САО';
+
+$config['view']['skin'] = 'kprf';
+
+$config['sys']['mail']['from_email'] = 'vestnikkprf@yandex.ru';
+
+$config['sys']['mail']['from_name'] = 'Почтовик';
+
 $config['general']['close'] = false;
-$config['general']['reg']['activation'] = false;
-$config['general']['reg']['invite'] = false;
+
+$config['general']['reg']['activation'] = true;
+
+$config['general']['reg']['invite'] = true;
+
 $config['lang']['current'] = 'russian';
+
 $config['lang']['default'] = 'russian';
+
 return $config;
 ?>

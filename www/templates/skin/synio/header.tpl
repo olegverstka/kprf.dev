@@ -119,17 +119,24 @@
 
 
 	
-	<div id="header-back"></div>
+	{if $oUserCurrent}
+<div id="header-back"></div>
+{/if}
+
 	
 	<div id="container" class="{hook run='container_class'}">
-		{include file='header_top.tpl'}
+		
+		{if $oUserCurrent}
+{include file='header_top.tpl'}
+ {/if}
 		{include file='nav.tpl'}
 
-		<div id="wrapper" class="{if $noSidebar}no-sidebar{/if}{hook run='wrapper_class'}">
+		<div id="wrapper" class="no-sidebar{hook run='wrapper_class'}">
+<!--
 			{if !$noSidebar}
 				{include file='sidebar.tpl'}
 			{/if}
-		
+-->
 			<div id="content" role="main" {if $sidebarPosition == 'left'}class="content-profile"{/if} {if $sMenuItemSelect=='profile'}itemscope itemtype="http://data-vocabulary.org/Person"{/if}>
 				{include file='nav_content.tpl'}
 				{include file='system_message.tpl'}
