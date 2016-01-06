@@ -46,22 +46,22 @@ input[type=text], input[type=search], input[type=password] {
 	padding: 0 22px;
 }
 .modal {
-    background-color: #fbfcfc;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    color: #333;
-    display: none;
-    left: 50%;
-    margin-left: -150px;
-    overflow: hidden;
-    position: fixed;
-    top: 25%;
-    width: 300px;
+	background-color: #fbfcfc;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	color: #333;
+	display: none;
+	left: 50%;
+	margin-left: -150px;
+	overflow: hidden;
+	position: fixed;
+	top: 25%;
+	width: 300px;
 }
 .modal.modal-login {
-    margin-left: -225px;
-    top: 50px;
-    width: 450px;
+	margin-left: -225px;
+	top: 50px;
+	width: 450px;
 }
 .header {
 	background: #bf0c0c;
@@ -107,7 +107,7 @@ input[type=text], input[type=search], input[type=password] {
 	margin: 43px 0 0;
 	input[type=text] {
 		margin: 0 20px 0 0;
-    	width: 180px;
+		width: 180px;
 	}
 	input[type=submit] {
 		background: url("../images/search.png") no-repeat 0 3px;
@@ -119,14 +119,14 @@ input[type=text], input[type=search], input[type=password] {
 	}
 }
 .link-dotted {
-    display: none;
+	display: none;
 }
 .icon-synio-search {
-    background: url("../images/search.png") no-repeat;
-    cursor: pointer;
-    display: block;
-    height: 20px;
-    width: 20px;
+	background: url("../images/search.png") no-repeat;
+	cursor: pointer;
+	display: block;
+	height: 20px;
+	width: 20px;
 }
 .content {
 	background-color: #FFF;
@@ -200,4 +200,87 @@ input[type=text], input[type=search], input[type=password] {
 }
 .ya {
 	display: none;
+}
+.selecter {
+	max-width: 100%;
+	margin: 15px 0 10px;
+}
+.selecter-selected {
+	box-shadow: inset 2.1px 2.1px 3px rgba(0, 0, 0, 0.5);
+	background-color: #FFF;
+	border-radius: 5px;
+	border: 0;
+	width: 100%;
+	&::after {
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-top: 10px solid #000;
+	}
+}
+.topic-header {
+	margin: 12px 0 0;
+}
+.topic {
+	border-bottom: 1px solid #000;
+	overflow: hidden;
+	padding: 0 0 21px;
+	&:last-child {
+		border-bottom: 0;
+	}
+}
+.topic-title {
+	border: 0;
+	color: #BF0C0C;
+	font-family: "ptsans";
+	font-size: 25px;
+	font-weight: 700;
+	margin: 0 0 9px 0;
+	padding: 0 0 0 20px;
+	text-decoration: underline;
+	text-transform: inherit;
+	&:hover {
+		text-decoration: none;
+	}
+}
+.date {
+	color: #C1C1C1;
+	font-family: "ptsans";
+	font-size: 25px;
+	font-weight: 700;
+	margin: 0;
+	text-align: right;
+	padding: 0 20px 0 0;
+}
+.topic-info {
+	color: #D0D0D0;
+	font-family: "ptsans";
+	font-size: 20px;
+	font-weight: 400;
+	padding: 0 20px;
+}
+.topic-content {
+	background: #efefef;
+	color: #000;
+	font-family: "ptsans";
+	font-size: 15px;
+	font-weight: 400;
+	margin: 0 0 16px;
+	padding: 18px 20px 32px;
+}
+.stream-comment-preview {
+	color: #BF0C0C;
+	font-family: "ptsans";
+	font-size: 15px;
+	font-weight: 400;
+	background-color: #D3D3D3;
+	border-radius: 5px;
+	padding: 22px 20px;
+}
+.topic-date {
+	color: #C1C1C1;
+	font-family: "PTSans";
+	font-size: 25px;
+	font-weight: 700;
+	padding: 0 20px;
+	text-align: right;
 }
