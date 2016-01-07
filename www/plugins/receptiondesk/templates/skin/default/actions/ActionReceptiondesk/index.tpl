@@ -108,18 +108,28 @@
 <div class="col-md-12">
 	<h2 class="page-header">{$aLang.plugin.receptiondesk.receptiondesk_answers_list}{if $oCurrentCategory} {$aLang.plugin.receptiondesk.receptiondesk_answers_list_category|ls_lang:"CATEGORY%%`$oCurrentCategory->getTitle()`"}{/if}</h2>	
 </div>
-
-<div class="wrapper-content">
-	<p><select name="category_id" id="category_id" class="input-width-full" onChange="ls.receptiondesk.redirectCategory(jQuery(this).val());">
-		<option value="0">{$aLang.plugin.receptiondesk.receptiondesk_answers_list_category_all}</option>
-	{foreach from=$aCategories item=oCategory}
-		<option value="{$oCategory->getId()}" {if $oCurrentCategory && $oCurrentCategory->getId()==$oCategory->getId()}selected{/if}>{$oCategory->getTitle()|escape:'html'}</option>
-	{/foreach}
-	</select></p>
+		</main>
+	</div>
 </div>
-
-<div class="wrapper-content">
-	{include file="{$sReceptiondeskTemplatePath}questions_rows.tpl"}
-</div>
+<div class="wrap-messege">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<select class="select" name="category_id" id="category_id" class="input-width-full" onChange="ls.receptiondesk.redirectCategory(jQuery(this).val());">
+					<option value="0">{$aLang.plugin.receptiondesk.receptiondesk_answers_list_category_all}</option>
+					{foreach from=$aCategories item=oCategory}
+					<option value="{$oCategory->getId()}" {if $oCurrentCategory && $oCurrentCategory->getId()==$oCategory->getId()}selected{/if}>{$oCategory->getTitle()|escape:'html'}</option>
+					{/foreach}
+				</select>
+			</div>
+		</div>
+	</div>
+</div><!-- .wrap-messege -->
+<div class="container">
+	<div class="row">
+		<main class="content clearfix">
+			<div class="wrapper-content">
+				{include file="{$sReceptiondeskTemplatePath}questions_rows.tpl"}
+			</div>
 
 {include file='footer.tpl'}

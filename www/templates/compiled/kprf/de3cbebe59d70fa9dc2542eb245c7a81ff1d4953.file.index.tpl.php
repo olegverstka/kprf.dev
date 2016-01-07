@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2016-01-06 10:19:28
+<?php /* Smarty version Smarty-3.1.8, created on 2016-01-07 16:33:08
          compiled from "D:\OpenServer\domains\kprf.dev\www\plugins\receptiondesk\templates\skin\default\actions\ActionReceptiondesk\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:22773568a9311e917c2-39771190%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'de3cbebe59d70fa9dc2542eb245c7a81ff1d4953' => 
     array (
       0 => 'D:\\OpenServer\\domains\\kprf.dev\\www\\plugins\\receptiondesk\\templates\\skin\\default\\actions\\ActionReceptiondesk\\index.tpl',
-      1 => 1451938017,
+      1 => 1452173586,
       2 => 'file',
     ),
   ),
@@ -196,27 +196,37 @@ $_smarty_tpl->tpl_vars['oCategory']->_loop = true;
 <?php if ($_smarty_tpl->tpl_vars['oCurrentCategory']->value){?> <?php echo smarty_modifier_ls_lang($_smarty_tpl->tpl_vars['aLang']->value['plugin']['receptiondesk']['receptiondesk_answers_list_category'],"CATEGORY%%".($_smarty_tpl->tpl_vars['oCurrentCategory']->value->getTitle()));?>
 <?php }?></h2>	
 </div>
-
-<div class="wrapper-content">
-	<p><select name="category_id" id="category_id" class="input-width-full" onChange="ls.receptiondesk.redirectCategory(jQuery(this).val());">
-		<option value="0"><?php echo $_smarty_tpl->tpl_vars['aLang']->value['plugin']['receptiondesk']['receptiondesk_answers_list_category_all'];?>
+		</main>
+	</div>
+</div>
+<div class="wrap-messege">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<select class="select" name="category_id" id="category_id" class="input-width-full" onChange="ls.receptiondesk.redirectCategory(jQuery(this).val());">
+					<option value="0"><?php echo $_smarty_tpl->tpl_vars['aLang']->value['plugin']['receptiondesk']['receptiondesk_answers_list_category_all'];?>
 </option>
-	<?php  $_smarty_tpl->tpl_vars['oCategory'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['oCategory']->_loop = false;
+					<?php  $_smarty_tpl->tpl_vars['oCategory'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['oCategory']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['aCategories']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['oCategory']->key => $_smarty_tpl->tpl_vars['oCategory']->value){
 $_smarty_tpl->tpl_vars['oCategory']->_loop = true;
 ?>
-		<option value="<?php echo $_smarty_tpl->tpl_vars['oCategory']->value->getId();?>
+					<option value="<?php echo $_smarty_tpl->tpl_vars['oCategory']->value->getId();?>
 " <?php if ($_smarty_tpl->tpl_vars['oCurrentCategory']->value&&$_smarty_tpl->tpl_vars['oCurrentCategory']->value->getId()==$_smarty_tpl->tpl_vars['oCategory']->value->getId()){?>selected<?php }?>><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['oCategory']->value->getTitle(), ENT_QUOTES, 'UTF-8', true);?>
 </option>
-	<?php } ?>
-	</select></p>
-</div>
+					<?php } ?>
+				</select>
+			</div>
+		</div>
+	</div>
+</div><!-- .wrap-messege -->
+<div class="container">
+	<div class="row">
+		<main class="content clearfix">
+			<div class="wrapper-content">
+				<?php echo $_smarty_tpl->getSubTemplate (($_smarty_tpl->tpl_vars['sReceptiondeskTemplatePath']->value)."questions_rows.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-<div class="wrapper-content">
-	<?php echo $_smarty_tpl->getSubTemplate (($_smarty_tpl->tpl_vars['sReceptiondeskTemplatePath']->value)."questions_rows.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
-
-</div>
+			</div>
 
 <?php echo $_smarty_tpl->getSubTemplate ('footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 <?php }} ?>

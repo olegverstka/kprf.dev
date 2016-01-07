@@ -27,7 +27,8 @@ $config['view']['grid']['fixed_width'] = 976;
 
 
 $config['head']['default']['js'] = Config::Get('head.default.js');
-$config['head']['default']['js'][] = '___path.static.skin___/js/template.js';
+$config['head']['default']['js'][] = '___path.static.skin___/js/vendor.js';
+$config['head']['default']['js'][] = '___path.static.skin___/js/main.js';
 
 $config['head']['default']['css'] = array(
 	"___path.static.skin___/css/vendor.css",
